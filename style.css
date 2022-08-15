@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+ 
+
+body{
+    background: #151719;
+}
+
+
+hr{
+    background: #2c3e50;
+}
+
+.navbar .navbar-nav .nav-item{
+    padding-right: 3.5rem;
+}
+
+.navbar .navbar-nav .nav-item a{
+    font-size: 1.05rem;
+    font-weight: 500;
+    color: #95a5a6 ;
+}
+
+.navbar .navbar-nav button{
+    background: #6163ff;
+    padding: 0.1rem 1.7rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 2px;
+    color: #e7e8ee;
+
+}
+
+.mid h1{
+    color: #eceded;
+    font-weight: 900;
+}
+
+.mid h1 span{
+    color: #5658dd;
+}
+
+.mid p{
+width: 60%;
+font-size: 1.4rem;
+font-weight: 400;
+color: #97a4ae;
+word-spacing: .1rem;
+}
+
+.mid .row{
+    display: fle;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mid .row button{
+    background: #6163ff;
+    padding: 0.7rem 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 2px;
+    color: #e7e8ee;
+    margin: 0 0.6rem;
+}
+
+.mid .row button:nth-child(2){
+    background: #25282c;
+    color: #e7e8ee;
+}
+
+body > header > div > h1.text2{
+    font-weight: 900;
+    font-size: 3rem;
+    color: #e7e8ee;
+
+
+}
+
+.features .row .one img{
+    background: #5658dd;
+    color: #fff;
+    border-radius: 50%;
+
+}
+
+.features .row .one h3{
+    color: #eceded;
+    font-weight: 700;
+}
+.features .row .one p{
+    color: #97a4ae;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.about h1{
+    font-weight: 900;
+    font-size: 3rem;
+    color: #e7e8ee;
+}
+.about p{
+    color: #97a4ae;
+    font-weight: 400;
+    font-size: 1.3rem;
+    word-spacing:   0.01rem ;
+}
+
+body > section.about.container.my-5 > div > div.content.col-lg-6.col-md-6.col-12.p-4 > h6 {
+    color: #5658dd;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+body > section.about.container.my-5 > div > div.content.col-lg-6.col-md-6.col-12.p-4 > h2 {
+    font-weight: 900;
+    font-size: 2.2rem;
+    color: #e7e8ee;
+}
+
+.feedback h1{
+    font-weight: 900;
+    font-size: 3rem;
+    color: #e7e8ee;
+}
+.feedback p{
+    color: #97a4ae;
+    font-weight: 400;
+    font-size: 1.3rem;
+    word-spacing:   0.01rem ;
+}
+
+.feedback .row div{
+    background: #25282c;
+    padding: 1rem 1.7rem;
+    color: white;
+}
+
+.feedback .row div i{
+    color:#6163ff;
+    font-size: 2rem;
+}
+.feedback .row div p{
+    color: #97a4ae;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+.feedback .row div h4{
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: #eceded;
+}
+.feedback .row div h4 span {
+    
+    color: #1cb58a;
+}
+
+.sub{
+    background: #5658dd;
+    padding: 4rem 3.3rem;
+}
+
+.sub .row h2{
+    font-weight: 900;
+    font-size: 2.2rem;
+    color: #e7e8ee;
+}
+.sub .row input{
+    width: 30%;
+    border-style: none;
+    outline: none;
+    padding: 0.9rem 1rem;
+    border-radius: 3px;
+}
